@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>colorchart integration test</title>
+  <style>
+  body{
+    font-family:sans-serif;
+  }
+  ul{
+    list-style:none;
+    padding:0;
+    margin:2em 0;
+  }
+  li{
+    padding:0;
+    margin:0;
+    float:left;
+    width:8em;
+    height:8em;
+    padding:1em;
+    margin:0 1em 1em 0;
+    outline:1px solid black;
+    color:#fff;
+    box-shadow:0 0 2px rgba(0,0,0,0.5);
+    font-size:1.7em;
+  }
+  img{
+    max-width:600px;
+  }
+  </style>
+</head>
+<body>
+  <h1>colorchart example</h1>
+
+  <form id="color-form" action="/">
+    <p>
+      Images from <a href="http://simpledesktops.com/">Simple Desktops</a>
+    </p>
+    <div>
+      <label for="img-select">Pick an image
+        <select name="img-select" id="img-select">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+      </label>
+    </div>
+
+    <img src="./img/1.png">
+    <div>
+      <input id="number" type="number" value="5" step="1">
+    </div>
+    <div>
+      <input id="submit" type="submit" value="Get colors" />
+    </div>
+  </form>
+
+  <ul class="colors"></ul>
+
+  <script src="./bundle.js"></script>
+</body>
+</html>

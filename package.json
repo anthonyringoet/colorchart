@@ -1,0 +1,36 @@
+{
+  "name": "colorchart",
+  "version": "0.0.1",
+  "description": "Get a color palette of an image in the DOM",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/anthonyringoet/colorchart",
+  "bugs": "https://github.com/anthonyringoet/colorchart/issues",
+  "scripts": {
+    "example-js": "./node_modules/watchify/bin/cmd.js example/index.js -o example/bundle.js --debug",
+    "start": "./node_modules/http-server/bin/http-server example/"
+  },
+  "keywords": [
+    "color",
+    "colors",
+    "canvas",
+    "browser",
+    "browserify"
+  ],
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/anthonyringoet/colorchart"
+  },
+  "author": {
+    "name": "Anthony Ringoet",
+    "email": "anthonyringoet@gmail.com",
+    "url": "http://anthonyringoet.be"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "quantize": "^1.0.1"
+  },
+  "devDependencies": {
+    "watchify": "^0.10.2",
+    "http-server": "^0.6.1"
+  }
+}
