@@ -5,6 +5,10 @@ Compatible with browserify.
 
 Based on https://github.com/lokesh/color-thief but commonjs compatible and using the quantize module from npm.
 
+```
+npm install colorchart
+```
+
 ## Use
 
 ### Get color palette
@@ -27,3 +31,6 @@ var palette = colormap.getDominant(document.querySelector('img'));
 ```
 
 Go to ```/example``` folder and run ```npm run example-js & npm start``` for a working example.
+
+## License
+MIT licensed
