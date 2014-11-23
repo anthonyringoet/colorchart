@@ -1,13 +1,14 @@
 {
   "name": "colorchart",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get a color palette of an image in the DOM",
   "main": "lib/index.js",
   "homepage": "https://github.com/anthonyringoet/colorchart",
   "bugs": "https://github.com/anthonyringoet/colorchart/issues",
   "scripts": {
-    "example-js": "./node_modules/watchify/bin/cmd.js example/index.js -o example/bundle.js --debug",
-    "start": "./node_modules/http-server/bin/http-server example/"
+    "example-js": "watchify example/index.js -o example/bundle.js --debug",
+    "build-example-js": "browserify example/index.js -o example/bundle.js && uglifyjs example/bundle.js -c -o example/bundle.js",
+    "start": "./node_modules/http-server/bin/http-server example & npm run example-js"
   },
   "keywords": [
     "color",
@@ -17,8 +18,8 @@
     "browserify"
   ],
   "repository": {
-  "type": "git",
-  "url": "https://github.com/anthonyringoet/colorchart"
+    "type": "git",
+    "url": "https://github.com/anthonyringoet/colorchart"
   },
   "author": {
     "name": "Anthony Ringoet",
@@ -31,6 +32,8 @@
   },
   "devDependencies": {
     "watchify": "^0.10.2",
-    "http-server": "^0.6.1"
+    "http-server": "^0.6.1",
+    "browserify": "^6.3.2",
+    "uglify-js": "^2.4.15"
   }
 }
