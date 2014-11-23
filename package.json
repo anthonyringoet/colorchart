@@ -1,6 +1,6 @@
 {
   "name": "colorchart",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get a color palette of an image in the DOM",
   "main": "lib/index.js",
   "homepage": "https://github.com/anthonyringoet/colorchart",

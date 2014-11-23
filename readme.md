@@ -3,6 +3,8 @@
 Get most used colors in an image (in the browser).
 Compatible with browserify.
 
+[Demo page](https://anthonyringoet.github.io/colorchart/example/)
+
 Based on https://github.com/lokesh/color-thief but commonjs compatible and using the quantize module from npm.
 
 ```
