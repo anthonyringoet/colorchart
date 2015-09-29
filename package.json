@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "watchify": "0.10.2",
-    "http-server": "0.6.1",
+    "http-server": "0.8.5",
     "browserify": "11.2.0",
     "uglify-js": "2.4.24"
   }
