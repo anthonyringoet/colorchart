@@ -1,5 +1,7 @@
 ## colorchart
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/anthonyringoet/colorchart.svg)](https://greenkeeper.io/)
+
 Get most used colors in an image (in the browser).
 Compatible with browserify.
 
